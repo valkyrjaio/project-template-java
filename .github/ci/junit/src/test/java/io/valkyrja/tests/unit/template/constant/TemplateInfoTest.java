@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-package io.valkyrja.unit.template.constant;
+package io.valkyrja.tests.unit.template.constant;
 
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
