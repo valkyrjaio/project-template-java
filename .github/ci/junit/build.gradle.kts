@@ -10,7 +10,7 @@
 plugins {
     java
     jacoco
-    id("com.github.ben-manes.versions") version "0.56.0"
+    id("com.github.ben-manes.versions") version "0.57.0"
     id("se.patrikerdes.use-latest-versions") version "0.2.19"
 }
 
@@ -44,7 +44,7 @@ dependencies {
     jacocoAnt("org.jacoco:org.jacoco.ant:0.8.15")
 
     implementation("com.fasterxml.jackson.core:jackson-databind:2.22.1")
-    compileOnly("org.jspecify:jspecify:1.0.0")
+    compileOnly("org.jspecify:jspecify:1.0.1")
     testImplementation("org.junit.jupiter:junit-jupiter:6.1.2")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }

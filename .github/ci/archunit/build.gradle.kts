@@ -9,7 +9,7 @@
 
 plugins {
     java
-    id("com.github.ben-manes.versions") version "0.56.0"
+    id("com.github.ben-manes.versions") version "0.57.0"
     id("se.patrikerdes.use-latest-versions") version "0.2.19"
 }
 
@@ -46,7 +46,7 @@ sourceSets {
 
 dependencies {
     implementation("com.fasterxml.jackson.core:jackson-databind:2.22.1")
-    compileOnly("org.jspecify:jspecify:1.0.0")
+    compileOnly("org.jspecify:jspecify:1.0.1")
     testImplementation("com.tngtech.archunit:archunit-junit5:1.4.2")
     testImplementation("org.junit.jupiter:junit-jupiter:6.1.2")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
@@ -55,7 +55,7 @@ dependencies {
     // dependencies are repeated because a custom source set does not inherit `main`'s.
     "testTreeImplementation"("com.fasterxml.jackson.core:jackson-databind:2.22.1")
     "testTreeImplementation"("org.junit.jupiter:junit-jupiter:6.1.2")
-    "testTreeImplementation"("org.jspecify:jspecify:1.0.0")
+    "testTreeImplementation"("org.jspecify:jspecify:1.0.1")
 }
 
 fun isNonStable(version: String): Boolean {
