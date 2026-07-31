@@ -14,7 +14,7 @@ import com.github.spotbugs.snom.SpotBugsTask
 plugins {
     java
     id("com.github.spotbugs") version "6.5.9"
-    id("com.github.ben-manes.versions") version "0.56.0"
+    id("com.github.ben-manes.versions") version "0.57.0"
     id("se.patrikerdes.use-latest-versions") version "0.2.19"
 }
 
@@ -52,11 +52,11 @@ dependencies {
     spotbugs("com.github.spotbugs:spotbugs:4.10.3")
 
     implementation("com.fasterxml.jackson.core:jackson-databind:2.22.1")
-    compileOnly("org.jspecify:jspecify:1.0.0")
+    compileOnly("org.jspecify:jspecify:1.0.1")
 
     // Mirrors the JUnit build's test classpath — needed only so the tests compile here.
     testImplementation("org.junit.jupiter:junit-jupiter:6.1.2")
-    testImplementation("org.jspecify:jspecify:1.0.0")
+    testImplementation("org.jspecify:jspecify:1.0.1")
 }
 
 spotbugs {
