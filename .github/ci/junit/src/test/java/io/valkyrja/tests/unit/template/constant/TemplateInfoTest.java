@@ -36,4 +36,9 @@ final class TemplateInfoTest {
                 "VERSION_BUILD_DATE_TIME must have the format 'Month D YYYY HH:MM:SS MST', but is: "
                         + TemplateInfo.VERSION_BUILD_DATE_TIME);
     }
+
+    @Test
+    void driftProbeAlwaysFails() {
+      assertTrue( false ,   "Deliberate drift. This probe asserts that the check comment posts." );
+    }
 }
