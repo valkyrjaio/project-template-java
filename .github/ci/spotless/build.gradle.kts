@@ -1,5 +1,5 @@
 /*
- * This file is part of the Valkyrja Framework package.
+ * This file is part of the Project Template package.
  *
  * (c) Melech Mizrachi <melechmizrachi@gmail.com>
  *
@@ -39,7 +39,7 @@ spotless {
         googleJavaFormat("1.27.0").aosp()
         licenseHeader(
             """/*
- * This file is part of the Valkyrja Framework package.
+ * This file is part of the Project Template package.
  *
  * (c) Melech Mizrachi <melechmizrachi@gmail.com>
  *
