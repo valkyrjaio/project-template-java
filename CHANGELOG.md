@@ -1,6 +1,16 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/project-template-java/compare/v26.0.2...26.x)
+## [Unreleased](https://github.com/valkyrjaio/project-template-java/compare/v26.0.3...26.x)
+
+## [v26.0.3](https://github.com/valkyrjaio/project-template-java/compare/v26.0.2...v26.0.3) - 2026-08-03
+
+* [Copyright] ci: Add the copyright header check by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-java/pull/69
+* [Workflow] ci: Update .github workflow refs to v26.22.0 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-java/pull/70
+* [Spotless] refactor: Take the copyright header from the shared package by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-java/pull/71
+* [Spotless] build: Take the copyright header from io.valkyrja:ci-spotless by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-java/pull/72
+* [Workflow] ci: Update .github workflow refs to v26.23.0 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-java/pull/73
+* [Dependency] build: Update Gradle dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-java/pull/75
+* [Dependency] build: Update Gradle dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-java/pull/76
 
 ## [v26.0.2](https://github.com/valkyrjaio/project-template-java/compare/v26.0.1...v26.0.2) - 2026-08-02
 
