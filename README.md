@@ -94,7 +94,7 @@ This template is open-source software licensed under the
 [vocabulary url]: https://github.com/valkyrjaio/.github/blob/26.x/VOCABULARY.md
 [contributing url]: https://github.com/valkyrjaio/.github/blob/26.x/CONTRIBUTING.md
 [security vulnerabilities url]: https://github.com/valkyrjaio/.github/blob/26.x/SECURITY.md
-[Versioning and Release Process url]: ./VERSIONING_AND_RELEASE_PROCESS.md
+[Versioning and Release Process url]: https://github.com/valkyrjaio/valkyrja-java/blob/26.x/src/main/java/io/valkyrja/VERSIONING_AND_RELEASE_PROCESS.md
 [semantic versioning url]: https://semver.org/
 [MIT license url]: https://opensource.org/licenses/MIT
 [license url]: ./LICENSE.md
