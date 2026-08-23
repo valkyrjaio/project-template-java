@@ -42,7 +42,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.valkyrja:valkyrja:26.9.9")
+    implementation("io.valkyrja:valkyrja:26.9.10")
 }
 
 tasks.withType<JavaCompile> {
