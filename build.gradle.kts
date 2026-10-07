@@ -12,7 +12,7 @@ plugins {
     java
     `maven-publish`
     signing
-    id("com.github.ben-manes.versions") version "0.64.0"
+    id("com.github.ben-manes.versions") version "0.65.0"
     id("se.patrikerdes.use-latest-versions") version "0.2.19"
 }
 
@@ -42,7 +42,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.valkyrja:valkyrja:26.10.10")
+    implementation("io.valkyrja:valkyrja:26.10.11")
 }
 
 tasks.withType<JavaCompile> {
