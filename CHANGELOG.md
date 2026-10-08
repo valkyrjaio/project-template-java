@@ -1,6 +1,11 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/project-template-java/compare/v26.0.36...26.x)
+## [Unreleased](https://github.com/valkyrjaio/project-template-java/compare/v26.0.37...26.x)
+
+## [v26.0.37](https://github.com/valkyrjaio/project-template-java/compare/v26.0.36...v26.0.37) - 2026-10-08
+
+* [Workflow] ci: Update .github workflow refs to v26.25.7 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-java/pull/147
+* [Dependency] build: Update Gradle dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-java/pull/148
 
 ## [v26.0.36](https://github.com/valkyrjaio/project-template-java/compare/v26.0.35...v26.0.36) - 2026-10-07
 
