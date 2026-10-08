@@ -12,10 +12,10 @@ package io.valkyrja.template.constant;
 public final class TemplateInfo {
 
     /** The package version. */
-    public static final String VERSION = "26.0.36";
+    public static final String VERSION = "26.0.37";
 
     /** The package version build datetime. */
-    public static final String VERSION_BUILD_DATE_TIME = "October 7 2026 12:41:27 MST";
+    public static final String VERSION_BUILD_DATE_TIME = "October 8 2026 12:44:09 MST";
 
     private TemplateInfo() {}
 }
