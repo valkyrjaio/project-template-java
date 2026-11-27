@@ -15,7 +15,7 @@ public final class TemplateInfo {
     public static final String VERSION = "26.0.51";
 
     /** The package version build datetime. */
-    public static final String VERSION_BUILD_DATE_TIME = "November 26 2026 15:45:40 MST";
+    public static final String VERSION_BUILD_DATE_TIME = "November 27 2026 15:27:39 MST";
 
     private TemplateInfo() {}
 }
